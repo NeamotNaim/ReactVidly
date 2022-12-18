@@ -4,15 +4,16 @@ const movies = [
   {
     _id: "ltdfjsf",
     title: "Terminator",
-    genre: { _id: "sflsadfkjsa", name: "Action" },
+    genre: { _id: "sflsadfkjsa", name: "Romantic" },
     numberInStock: 6,
     dailyRentalRate: 2.5,
     publishDate: "2019-4-30",
+    liked: true,
   },
   {
     _id: "ltdfdsfjsf",
     title: "sdfTerminator",
-    genre: { _id: "sdsfflsadfkjsa", name: "Action" },
+    genre: { _id: "sflsadfkjsa", name: "Romantic" },
     numberInStock: 6,
     dailyRentalRate: 2.5,
     publishDate: "2019-4-30",
@@ -20,7 +21,15 @@ const movies = [
   {
     _id: "sdafsdfltdfjsf",
     title: "eTeerminator",
-    genre: { _id: "werfsflsadfkjsa", name: "Action" },
+    genre: { _id: "sflsadfkjsa", name: "Romantic" },
+    numberInStock: 6,
+    dailyRentalRate: 2.5,
+    publishDate: "2019-4-30",
+  },
+  {
+    _id: "sdafsdfsfltdfjsf",
+    title: "RReTeerminator",
+    genre: { _id: "sflsadfkjsa", name: "Romantic" },
     numberInStock: 6,
     dailyRentalRate: 2.5,
     publishDate: "2019-4-30",
@@ -36,7 +45,7 @@ const movies = [
   {
     _id: "qwerltdfjsf",
     title: "tuTerminator",
-    genre: { _id: "sftyulsadfkjsa", name: "Action" },
+    genre: { _id: "serqflsadfkjsa", name: "Action" },
     numberInStock: 6,
     dailyRentalRate: 2.5,
     publishDate: "2019-4-30",
@@ -44,7 +53,7 @@ const movies = [
   {
     _id: "iuiltdfjsf",
     title: "iiTerminator",
-    genre: { _id: "sflyuisadfkjsa", name: "Action" },
+    genre: { _id: "serqflsadfkjsa", name: "Action" },
     numberInStock: 6,
     dailyRentalRate: 2.5,
     publishDate: "2019-4-30",
@@ -52,7 +61,15 @@ const movies = [
   {
     _id: "rqwltdfjsf",
     title: "uioTerminator",
-    genre: { _id: "sflsadfytuikjsa", name: "Action" },
+    genre: { _id: "thrill", name: "Thrill" },
+    numberInStock: 6,
+    dailyRentalRate: 2.5,
+    publishDate: "2019-4-30",
+  },
+  {
+    _id: "rqwltdsdffjsf",
+    title: "tttuioTerminator",
+    genre: { _id: "thrill", name: "Thrill" },
     numberInStock: 6,
     dailyRentalRate: 2.5,
     publishDate: "2019-4-30",
@@ -66,3 +83,4 @@ export function getMovie(id) {
     return movies.find(m=>m._id===id);
    
 }
+
